@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+.weather-container.sunny {
+  background-image: url('https://source.unsplash.com/1600x900/?sunny,sky');
+  background-size: cover;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.weather-container.rainy {
+  background-image: url('https://source.unsplash.com/1600x900/?rain,storm');
+  background-size: cover;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.weather-container.cloudy {
+  background-image: url('https://source.unsplash.com/1600x900/?clouds,sky');
+  background-size: cover;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.weather-container.snowy {
+  background-image: url('https://source.unsplash.com/1600x900/?snow,winter');
+  background-size: cover;
+  color: #000;
+  padding: 2rem;
+  border-radius: 1rem;
+}
