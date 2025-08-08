@@ -5,7 +5,7 @@ const API_KEY = "f4a84dce793432f2df171ece248115d9"; // Your OpenWeatherMap API k
 
 function App() {
   const [forecast, setForecast] = useState(null);
-  const [location, ] = useState('New York'); // Removed unused setLocation
+  const [location, ] = useState('New York'); // remove setLocation if unused
   const [error, setError] = useState(null);
 
   useEffect(() => {
