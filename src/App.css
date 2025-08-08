@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  transition: background 0.3s ease;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.weather-container {
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sunny {
+  background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.rainy {
+  background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.clouds {
+  background-image: url('https://images.unsplash.com/photo-1504457046783-88a6b05f6650');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.clear {
+  background-image: url('https://images.unsplash.com/photo-1505480449763-1c5d3186d142');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
